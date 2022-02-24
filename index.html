@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Svelte + TS + Vite App</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td colspan="3">
+          Default Sized Images
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <skywarn-status />
+        </td>
+        <td>
+          <srcares-status />
+        </td>
+        <td>
+          <nflares-status />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          Smaller images using the "width" attribute on the HTML tag.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <skywarn-status width="145px" />
+        </td>
+        <td>
+          <srcares-status width="145px" />
+        </td>
+        <td>
+          <nflares-status width="145px" />
+        </td>
+      </tr>
+    </table>
+    <!-- <script type="module" src="/src/main.ts"></script> -->
+    <script src="dist/skywarn-status-srcares.es.js"></script>
+  </body>
+</html>
